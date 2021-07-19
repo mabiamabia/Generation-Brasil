@@ -1,0 +1,33 @@
+body {
+    background-color: aquamarine;
+    align-items: center;
+}
+
+h1 {
+    background-color: burlywood;
+    text-align: center;
+}
+
+nav {
+    color: crimson;
+}
+
+#generos {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    background-color: bisque;
+}
+
+.imagem {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
