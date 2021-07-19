@@ -17,12 +17,18 @@ nav {
     font-size: 30px;
 }
 
-p {
+.titulo {
     background-color: bisque;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.imagem {
+img image {
     text-align: center;
+    border: 10px;
+    border-color: red;
 }
 
 header {
@@ -30,4 +36,19 @@ header {
     color: black;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bodydrama {
+ 
+    align-items: center;
+    background-color: aquamarine
+}
+
+.volta {
+    font-size: 40px;
+    text-align: left;
+}
+
+ol {
+    text-align: center;
 }
