@@ -115,3 +115,23 @@ ol {
 .br-50 {
     border-radius: 10%;
 }
+
+/* .formulario {
+    align-items: center;
+    display: grid;
+} */
+
+footer {
+text-align: center;
+margin: 50px;
+padding: 50px;
+}
+
+.map {
+    display: flexbox;
+    display: block;
+    padding: 50px;
+    margin: 10px;
+    background-color: rgba(129, 36, 78, 0.061);
+    border-radius: 50%;
+}
