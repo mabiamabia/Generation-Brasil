@@ -1,8 +1,25 @@
 alert('um teste')
 
-let nome = window.document.getElementsById('#nome')
+let nome = window.document.getElementById('nome')
 let email = document.querySelector('#email')
 let assunto = document.querySelector('#assunto')
+let nomeOk = false
+let emailOk = false
+let assuntoOk = false
+let mapa = false
+
+
+nome.style.width = '100%'
+email.style.width = '100%'
+
+
+function enviar(){
+    if (nomeOk == true  && emailOk == true && assuntoOk == true) {
+        alert('Formulario enviado com sucesso')
+    }else {
+        alert('Preencha o formulário')
+    }
+}
 
 function validaNome() {
     let txt = document.querySelector('#txtNome')
@@ -11,4 +28,24 @@ function validaNome() {
     }else {
         txt.innerHTML = ('Nome Válido')
     }
+}
+
+function validaEmail(){
+    let txtEmail = document.querySelector('txtEmail')
+
+    if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1 ) {
+        txtEmail.innerHTML = 'E-mail inválido'
+        txtEmail.style.color = 'red'       
+    }else {
+        txtEmail.innerHTML = 'E-mail válido'
+        txtEmail.style.color = 'green'
+    }
+}
+
+function mapaZoom(){
+    
+}
+
+function mapaNormal(){
+
 }
